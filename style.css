@@ -1,0 +1,158 @@
+body {
+     background: -webkit-linear-gradient(1deg, #ff0000 40%, #0037ff 40%);
+     background: -o-linear-gradient(45deg, #ff0000 40%, #00aeff 40%);
+     background: -moz-linear-gradient(45deg, #ff0000 40%, #00aeff 40%);
+     background: linear-gradient(45deg, #ff0000 40%, #00aeff 40%);
+}
+header {
+     padding: 0px;
+     font-family: "Aref Ruqaa", serif;
+     font-weight: normal;
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: -0;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     cursor: pointer;
+     width: 500px;
+     margin-top: auto;
+}
+header {
+     background: #ca4246;
+     background-color: #ca4246;
+     background: conic-gradient(
+          #ff0000 16.666%,
+          #0051ff 16.666%,
+          #ff0000 33.333%,
+          #0051ff 33.333%,
+          #ff0000 50%,
+          #ff0000 50%,
+          #ff0000 66.666%,
+          #0051ff 66.666%,
+          #0051ff 83.333%,
+          #0051ff 83.333%
+     );
+
+     background-size: 57%;
+     background-repeat: repeat;
+
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+     animation: rainbow-text-animation-rev 1.5s ease forwards;
+
+     cursor: pointer;
+}
+header:hover {
+     animation: rainbow-text-animation 1.5s ease forwards;
+}
+@keyframes rainbow-text-animation {
+     0% {
+          background-size: 57%;
+          background-position: 0 0;
+     }
+     20% {
+          background-size: 57%;
+          background-position: 0 1em;
+     }
+     100% {
+          background-size: 300%;
+          background-position: -9em 1em;
+     }
+}
+@keyframes rainbow-text-animation-rev {
+     0% {
+          background-size: 300%;
+          background-position: -9em 1em;
+     }
+     20% {
+          background-size: 57%;
+          background-position: 0 1em;
+     }
+     100% {
+          background-size: 57%;
+          background-position: 0 0;
+     }
+}
+footer {
+     margin-top: 45%;
+     text-align: center;
+     color: aliceblue;
+}
+.TableAkka {
+     color: rgb(53, 253, 253);
+     font-family: "Aref Ruqaa", serif;
+     font-weight: normal;
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: -0;
+     display: block;
+     cursor: pointer;
+     width: 500px;
+     margin-top: auto;
+     padding: 20px;
+     background: transparent;
+     margin-left: 50px;
+}
+.TableAoo {
+     color: rgb(53, 253, 253);
+     font-family: "Aref Ruqaa", serif;
+     font-weight: normal;
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: -0;
+     display: block;
+     cursor: pointer;
+     width: 500px;
+     margin-top: auto;
+     padding: 20px;
+     background: transparent;
+     margin-left: 50px;
+}
+.Submit {
+     background: linear-gradient(#ff0000, #0000ff);
+     border: 3px solid #00279a;
+     border-radius: 1000px;
+     box-shadow: -1px 1px #444444;
+     width: 150px;
+     height: 60px;
+     color: #ffffff;
+     display: inline-block;
+     font: normal bold 26px/60px "Roboto", sans-serif;
+     text-align: center;
+     text-shadow: 4px 4px #2436ca;
+     margin-left: 50px;
+     margin-top: 10px;
+}
+.Submit:hover {
+     background: linear-gradient(#0000ff, #ff0000);
+     border: 3px solid #00279a;
+     border-radius: 1000px;
+     box-shadow: -1px 1px #444444;
+     width: 150px;
+     height: 60px;
+     color: #ffffff;
+     display: inline-block;
+     font: normal bold 26px/60px "Roboto", sans-serif;
+     text-align: center;
+     text-shadow: 4px 4px #2436ca;
+}
+h2 {
+     margin-top: 0;
+     margin-bottom: 5px;
+     color: red;
+}
+#Aoo {
+     color: #0040ff;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+#Akka {
+     color: #ff0000;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+.navbar navbar-expand-lg navbar-light bg-light {
+     background-color: #6f6f6f;
+}
